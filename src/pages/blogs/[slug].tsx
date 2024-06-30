@@ -85,7 +85,7 @@ export const getStaticPaths = async () => {
 };
 
 const IndexPage = ({ blog }: BlogProps) => {
-  const title = `${blog?.title} | Walls Research`;
+  const title = `${blog?.title} | Linkdedin For Her`;
   const router = useRouter();
   if (router.isFallback) {
     return <div>Loading...</div>;
